@@ -10,12 +10,8 @@ class UsersRepo {
         User("login5")
     )
 
-    fun getUsers() : List<User> {
+    fun getUsers(): List<User> {
         return repositories
-    }
-
-    fun getUser(login: String) : User{
-        return User(login)
     }
 
 }
